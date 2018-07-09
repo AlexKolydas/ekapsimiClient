@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.client.alex.e_kapsimi">
+    package="ekapsimifinal.client.alex.e_kapsimi">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,23 +11,23 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="ekapsimifinal.client.alex.e_kapsimi.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignIn" />
-        <activity android:name=".SignUp" />
+        <activity android:name="ekapsimifinal.client.alex.e_kapsimi.SignIn" />
+        <activity android:name="ekapsimifinal.client.alex.e_kapsimi.SignUp" />
         <activity
-            android:name=".Home"
+            android:name="ekapsimifinal.client.alex.e_kapsimi.Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme" />
-        <activity android:name=".FoodList" />
-        <activity android:name=".FoodDetails" />
-        <activity android:name=".Cart" />
-        <activity android:name=".OrderStatus"></activity>
+        <activity android:name="ekapsimifinal.client.alex.e_kapsimi.FoodList" />
+        <activity android:name="ekapsimifinal.client.alex.e_kapsimi.FoodDetails" />
+        <activity android:name="ekapsimifinal.client.alex.e_kapsimi.Cart" />
+        <activity android:name="ekapsimifinal.client.alex.e_kapsimi.OrderStatus"></activity>
 
         <Service android:name=".Service.MyFirebaseInstanceIDService">
             <intent-filter>

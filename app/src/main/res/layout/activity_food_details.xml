@@ -148,7 +148,7 @@
         android:id="@+id/btnCart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:backgroundTint="@android:color/white"
+        android:backgroundTint="@android:color/white"
         app:srcCompat="@drawable/ic_shopping_cart_black_24dp"
         app:elevation="6dp"
         app:layout_anchor="@id/app_bar_layout"

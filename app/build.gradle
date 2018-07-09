@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.alex.e_kapsimi"
+        applicationId "ekapsimifinal.client.alex.e_kapsimi"
         minSdkVersion 17
         targetSdkVersion 26
         versionCode 1

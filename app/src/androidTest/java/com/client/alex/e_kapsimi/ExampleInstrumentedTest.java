@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.alex.e_kapsimi", appContext.getPackageName());
+        assertEquals("ekapsimifinal.client.alex.e_kapsimi", appContext.getPackageName());
     }
 }
